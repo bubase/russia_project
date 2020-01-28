@@ -1,0 +1,16 @@
+@import url(./__content-title/video__content-title.css);
+@import url(./__content-subtitle/video__content-subtitle.css);
+@import url(./__container/video__container.css);
+
+.video {
+    width: 100%;
+    font-family: Inter, Georgia, Serif;
+    color: #fff;
+    margin: 92px auto 102px;
+}
+
+@media screen and (max-width: 450px) {
+    .video {
+        margin: 64px auto 64px;
+    }
+}

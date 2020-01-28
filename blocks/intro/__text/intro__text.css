@@ -1,0 +1,29 @@
+.intro__text:first-child {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.intro__text {
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.intro span {
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 425px) {
+    .intro__text:first-child {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .intro__text {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

@@ -1,0 +1,48 @@
+@import url(./__image/place__image.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__title/place__title.css);
+@import url(./__website/place__website.css);
+
+.places {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 985px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: Inter, Georgia, Serif;
+}
+
+.place {
+    width: 100%;
+    margin-bottom: 72px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.place:nth-child(5) {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1140px) {
+    .places {
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .places {
+    width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .places {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .place {
+        margin-bottom: 48px;
+    }
+}

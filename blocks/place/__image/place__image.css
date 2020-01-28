@@ -1,0 +1,52 @@
+.place__image {
+    margin-right: 40px;
+    background-size: cover;
+    height: 0;
+    width: calc(50% - 32px);
+    padding-bottom: calc(50% - 32px);
+}
+
+.place:nth-child(1) .place__image {
+    background-image: url(../../../images/kosa.jpg);
+}
+
+.place:nth-child(2) .place__image {
+    background-image: url(../../../images/kolsky.jpg);
+}
+
+.place:nth-child(3) .place__image {
+    background-image: url(../../../images/altai.jpg);
+}
+
+.place:nth-child(4) .place__image {
+    background-image: url(../../../images/winter-baikal.jpg);
+}
+
+.place:nth-child(5) .place__image {
+    background-image: url(../../../images/karelia.jpg);
+}
+
+@media screen and (max-width: 1050px) {
+    .place__image {
+        margin-right: 32px;
+        width: calc(50% - 24px);
+        padding-bottom: calc(50% - 24px);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .place__image {
+        margin-right: 28px;
+        width: calc(50% - 20px);
+        padding-bottom: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .place__image {
+        padding-bottom: 100%;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+}

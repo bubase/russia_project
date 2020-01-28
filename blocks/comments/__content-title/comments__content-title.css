@@ -1,0 +1,24 @@
+.comments__content-title {
+    font-size: 72px;
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto 48px;
+    width: 90%;
+    max-width: 800px;
+}
+
+@media screen and (max-width: 880px) {
+    .comments__content-title {
+        font-size: 42px;
+        line-height: 46px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .comments__content-title {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 16px;
+    }
+}

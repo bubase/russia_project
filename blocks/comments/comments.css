@@ -1,0 +1,23 @@
+@import url(./__content-title/comments__content-title.css);
+@import url(./__content-subtitle/comments__content-subtitle.css);
+@import url(./__container/comments__container.css);
+@import url(./__container/__item/comments__item.css);
+
+.comments {
+    width: 100%;
+    font-family: Inter, Georgia, Serif;
+    color: #fff;
+    margin: 0 auto 102px;
+}
+
+@media screen and (max-width: 450px) {
+    .comments {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .comments {
+        margin-bottom: 64px;
+    }
+}

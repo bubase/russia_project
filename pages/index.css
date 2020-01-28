@@ -1,0 +1,51 @@
+@import url('../vendors/normalize.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/place/place.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/footer/footer.css');
+
+@font-face {
+    src: url('../fonts/Inter-Regular.woff') format('woff'),
+    url('../fonts/Inter-Regular.woff2') format('woff2'),
+    url('../fonts/Inter-Regular.ttf') format('truetype'),
+    url('../fonts/Inter-Regular.otf') format('opentype');
+    font-family: 'Inter';
+}
+@font-face {
+    src: url('../fonts/Inter-Black.woff') format('woff'),
+    url('../fonts/Inter-Black.woff2') format('woff2'),
+    url('../fonts/Inter-Black.ttf') format('truetype'),
+    url('../fonts/Inter-Black.otf') format('opentype');
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+/* img, div, h1, h2, h3, h4, p {
+    border: 1px solid red;
+} */
+
+
+
+.page {
+    width: 100%;
+    max-width: 1184px;
+    background: #2A2C2F;
+    margin: 0 auto;
+    text-rendering: optimizeLegibility;
+}
+
+.page__bg {
+    width: 100%;
+    height: 100%;
+    background: #2A2C2F;
+}
+
+a:hover {
+    opacity:0.6;
+    transition: opacity 0.7s ease 0s;
+}
